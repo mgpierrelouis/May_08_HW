@@ -1,0 +1,138 @@
+*
+{box-sizing: border-box}
+
+:root {   
+    --primary: rgb(84, 170, 240);
+    --secondary: rgb(243, 89, 89);
+    --tertiary: rgb(19, 33, 73);
+    --dark: rgba(28, 29, 33, 1);
+    --light: rgb(248, 244, 223);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--tertiary);
+    background-color: var(--primary);
+    line-height: 1.5;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    background-color: var(--tertiary);
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    line-height: 100%;
+    text-decoration: none;
+    width: 100%
+}
+
+h1{
+    color: var(--secondary);
+    border-bottom: 0;
+    margin: 0;
+    line-height: 100%;
+
+
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary);
+    padding: 5px 10px;
+    background-image: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    
+}
+
+nav a:hover {
+    background-size: 100% 100%;
+    color: var(--secondary);
+}
+
+ul li {
+    display: inline-block;
+}
+
+main {
+    margin-top: 60px;
+    margin-bottom: 45px;
+    max-width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-segment {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-segment > h2 {
+    height: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: linear-gradient(270deg, var(--tertiary) 0%, var(--tertiary) 100%);
+    background-size: 100% 0.2em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item {
+    border: 5px solid var(--tertiary);
+    background-color: var(--primary);
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+
+}
+
+.flex-item:first-child {
+    min-height: 600px;
+    flex-basis: 100%;
+}
+
+.refactor {
+    background-image: url("../assets/images/webpagedemo.png") ;
+}
+
+.espn-placeholder {
+    background-image: url("../assets/images/espn.png");
+}
+
+.bestbuy-placeholder {
+    background-image: url("../assets/images/bestbuy.jpeg");
+}
+
