@@ -101,6 +101,16 @@ main {
     justify-content: center;
 }
 
+.label {
+    background-color: var(--secondary);
+    
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
 .flex-item {
     border: 5px solid var(--tertiary);
     background-color: var(--primary);
@@ -126,14 +136,17 @@ main {
 
 .refactor {
     background-image: url("../assets/images/webpagedemo.png") ;
+
 }
 
-.espn-placeholder {
-    background-image: url("../assets/images/espn.png");
+.nba-search {
+    background-image: url("../assets/images/nbasearch.png");
+    background-position: center;
 }
 
-.bestbuy-placeholder {
-    background-image: url("../assets/images/bestbuy.jpeg");
+.pwd-generator {
+    background-image: url("../assets/images/password.png");
+
 }
 
 
