@@ -135,17 +135,17 @@ main {
 }
 
 .refactor {
-    background-image: url("../assets/images/webpagedemo.png") ;
+    background-image: url("images/webpagedemo.png") ;
 
 }
 
 .nba-search {
-    background-image: url("../assets/images/nbasearch.png");
+    background-image: url("images/nbasearch.png");
     background-position: center;
 }
 
 .pwd-generator {
-    background-image: url("../assets/images/password.png");
+    background-image: url("images/password.png");
 
 }
 
